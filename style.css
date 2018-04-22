@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Share+Tech+Mono|Source+Sans+Pro");
+
+:root {
+    --color1: #111889; /* h1, h2 colour */
+    --color2: #d7d88d; /* Body colour */
+    --color3: #17f17a; /*  */
+    --color4: #79c1c2; /* Page header colour */
+    --color5: #21a704; /*  */
+    --color6: #d98000; /*  */
+}
+
+body {
+    background-color: var(--color2);
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bigassheading {
+    background-color: var(--color4);
+    width: 100%;
+}
+
+    .bigassheading h2 {
+        font-family: 'Comfortaa', sans-serif;
+    }
+
+.bigasseverythingelseakacontent {
+    padding: 32px 64px;
+}
+
+.headingraft {
+    margin: 0 auto;
+    padding: 100px 0px 50px 0px;
+    display: block;
+    text-align: center;
+}
+
+#thenumber {
+    font-family: 'Share Tech Mono', monospace;
+}
