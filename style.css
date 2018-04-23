@@ -1,24 +1,31 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa|Share+Tech+Mono|Source+Sans+Pro");
-
-:root {
-    --color1: #111889; /* h1, h2 colour */
-    --color2: #d7d88d; /* Body colour */
-    --color3: #17f17a; /*  */
-    --color4: #79c1c2; /* Page header colour */
-    --color5: #21a704; /*  */
-    --color6: #d98000; /* Link colour */
-}
+/*
+    #111889 Footer colour 
+    #d7d88d Body colour 
+    #17f17a Heart colour 
+    #79c1c2 Page header colour 
+    #21a704 
+    #d98000 Link colour 
+*/
 
 body {
-    background-color: var(--color2);
+    background-color: #d7d88d;
     margin: 0;
+}
+
+footer {
+    background-color: #111889;
+    color: white;
+}
+
+table {
+    width:100%;
 }
 
 h1, h2, h3 {
     font-family: 'Comfortaa', sans-serif;
 }
 
-p, li {
+p, li, td, th {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -40,7 +47,7 @@ td, th {
 
 a {
     text-decoration: none;
-    color: var(--color6);
+    color: #d98000;
 }
 
 a:hover {
@@ -48,12 +55,16 @@ a:hover {
 }
 
 .bigassheading {
-    background-color: var(--color4);
+    background-color: #79c1c2;
     width: 100%;
 }
 
 .bigasseverythingelseakacontent {
     padding: 32px 64px;
+}
+
+.hugenumber {
+    word-wrap: break-word;
 }
 
 .headingraft {
