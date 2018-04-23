@@ -6,7 +6,7 @@
     --color3: #17f17a; /*  */
     --color4: #79c1c2; /* Page header colour */
     --color5: #21a704; /*  */
-    --color6: #d98000; /*  */
+    --color6: #d98000; /* Link colour */
 }
 
 body {
@@ -14,18 +14,43 @@ body {
     margin: 0;
 }
 
-h1, h2, h3, p {
+h1, h2, h3 {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+p, li {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul li {
+    list-style-image: url("heart_icon.png");
+}
+
+li {
+    margin: 20px;
+}
+
+h1 a {
+    color: black;
+}
+
+td, th {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color6);
+}
+
+a:hover {
+    color: white;
 }
 
 .bigassheading {
     background-color: var(--color4);
     width: 100%;
 }
-
-    .bigassheading h2 {
-        font-family: 'Comfortaa', sans-serif;
-    }
 
 .bigasseverythingelseakacontent {
     padding: 32px 64px;
@@ -38,6 +63,17 @@ h1, h2, h3, p {
     text-align: center;
 }
 
+.palette {
+    width: 240px;
+    height: 40px;
+    background-color: white;
+}
+
 #thenumber {
     font-family: 'Share Tech Mono', monospace;
+    color: black;
+}
+
+#thenumber:hover {
+    color: white;
 }
