@@ -3,7 +3,7 @@
     #d7d88d Body colour 
     #17f17a Heart colour 
     #79c1c2 Page header colour 
-    #21a704 
+    #21a704 Misc
     #d98000 Link colour 
 */
 
@@ -78,6 +78,15 @@ a:hover {
     width: 240px;
     height: 40px;
     background-color: white;
+}
+
+.monospacebig {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 18px;
+}
+
+.greenhighlight {
+    color: #21a704;
 }
 
 #thenumber {
