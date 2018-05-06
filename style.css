@@ -94,6 +94,10 @@ a:hover {
     color: black;
 }
 
+.mynumber {
+    word-wrap: break-word;
+}
+
 #thenumber:hover {
     color: white;
 }
