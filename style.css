@@ -91,13 +91,12 @@ a:hover {
 
 #thenumber {
     font-family: 'Share Tech Mono', monospace;
-    color: black;
 }
 
 .mynumber {
     word-wrap: break-word;
 }
 
-#thenumber:hover {
+.white-hover:hover {
     color: white;
 }

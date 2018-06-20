@@ -6,7 +6,7 @@ document.addEventListener("keydown", ev => {
         four++;
         document.getElementById("four").innerHTML += "4"
         if (four == 8) {
-            window.location.href = "http://battlefordreamisland.wikia.com/wiki/Four"
+            window.location.href = "https://www.youtube.com/watch?v=MiZ8V3NHwfM"
         }
     }
 })
